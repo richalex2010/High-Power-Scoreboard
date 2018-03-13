@@ -1,0 +1,57 @@
+body {
+    color: #657b83;
+    background-color: #fdf6e3;
+    width:100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+a {
+    color: #657b83;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top:0;
+    width:100%;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.scoreboard {
+    
+}
+
+.scoreboard:nth-child(even) {
+    background-color: #eee8d5;
+}
+
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.left {
+    text-align: left;
+    line-height:0;
+}
+
+.center {
+    text-align: center;
+    line-height:0;
+}
+
+.right {
+    text-align: right;
+    line-height:0;
+}
