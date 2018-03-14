@@ -41,7 +41,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPWM/observations/2018-03-14T04:08:00+00:00",
+    "id": "https://api.weather.gov/stations/KPWM/observations/2018-03-14T06:51:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -51,15 +51,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPWM/observations/2018-03-14T04:08:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPWM/observations/2018-03-14T06:51:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "value": 19,
             "unitCode": "unit:m"
         },
         "station": "https://api.weather.gov/stations/KPWM",
-        "timestamp": "2018-03-14T04:08:00+00:00",
-        "rawMessage": "KPWM 140408Z AUTO 32008KT 2 1/2SM -SN BR BKN015 OVC019 00/M01 A2936 RMK AO2 P0001 T00001006",
+        "timestamp": "2018-03-14T06:51:00+00:00",
+        "rawMessage": "KPWM 140651Z AUTO 28009KT 1 1/2SM -SN BR FEW005 OVC013 00/M01 A2933 RMK AO2 SLP934 P0003 T00001006",
         "textDescription": "Light Snow and Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/snow?size=medium",
         "presentWeather": [
@@ -87,12 +87,12 @@
             "qualityControl": "qc:V"
         },
         "windDirection": {
-            "value": 320,
+            "value": 280,
             "unitCode": "unit:degree_(angle)",
             "qualityControl": "qc:V"
         },
         "windSpeed": {
-            "value": 4.0999999046326,
+            "value": 4.5999999046326,
             "unitCode": "unit:m_s-1",
             "qualityControl": "qc:V"
         },
@@ -102,17 +102,17 @@
             "qualityControl": "qc:Z"
         },
         "barometricPressure": {
-            "value": 99430,
+            "value": 99320,
             "unitCode": "unit:Pa",
             "qualityControl": "qc:V"
         },
         "seaLevelPressure": {
-            "value": null,
+            "value": 99340,
             "unitCode": "unit:Pa",
-            "qualityControl": "qc:Z"
+            "qualityControl": "qc:V"
         },
         "visibility": {
-            "value": 4020,
+            "value": 2410,
             "unitCode": "unit:m",
             "qualityControl": "qc:C"
         },
@@ -127,7 +127,7 @@
             "qualityControl": null
         },
         "precipitationLastHour": {
-            "value": 0.00030000001424924,
+            "value": 0.0007999999797903,
             "unitCode": "unit:m",
             "qualityControl": "qc:C"
         },
@@ -147,7 +147,7 @@
             "qualityControl": "qc:C"
         },
         "windChill": {
-            "value": -4.3524712323443,
+            "value": -4.6772619000909,
             "unitCode": "unit:degC",
             "qualityControl": "qc:V"
         },
@@ -159,14 +159,14 @@
         "cloudLayers": [
             {
                 "base": {
-                    "value": 460,
+                    "value": 150,
                     "unitCode": "unit:m"
                 },
-                "amount": "BKN"
+                "amount": "FEW"
             },
             {
                 "base": {
-                    "value": 580,
+                    "value": 400,
                     "unitCode": "unit:m"
                 },
                 "amount": "OVC"
